@@ -1,0 +1,8 @@
+data class item(val name:String,val category:String,var quantity:int)
+val storeitems=
+mutableListOf<item>()
+val itemCategories=
+mutableListOf<Strings>()
+
+fun main(){
+var userInput:String
